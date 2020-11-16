@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-dpe-generator'
 import 'react-dpe-generator/dist/index.css'
+import { DPE } from '../../src/DPEGES'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <DPE value={200}/>
 }
 
 export default App

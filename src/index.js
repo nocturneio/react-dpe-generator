@@ -9,34 +9,34 @@ class Diag extends Component {
     valuesRange: [
       {
         min: null,
-        max: 50,
+        max: 70,
         color: '#319834',
         textColor: '#000000',
         label: 'A'
       },
       {
-        min: 51,
-        max: 90,
+        min: 71,
+        max: 110,
         color: '#33cc31',
         textColor: '#000000',
         label: 'B'
       },
       {
-        min: 91,
-        max: 150,
+        min: 111,
+        max: 180,
         color: '#cbfc34',
         textColor: '#000000',
         label: 'C'
       },
       {
-        min: 151,
-        max: 230,
+        min: 181,
+        max: 250,
         color: '#fbfe06',
         textColor: '#000000',
         label: 'D'
       },
       {
-        min: 231,
+        min: 251,
         max: 330,
         color: '#fbcc05',
         textColor: '#000000',
@@ -44,13 +44,13 @@ class Diag extends Component {
       },
       {
         min: 331,
-        max: 450,
+        max: 420,
         color: '#fc9935',
         textColor: '#000000',
         label: 'F'
       },
       {
-        min: 451,
+        min: 421,
         max: null,
         color: '#fc0205',
         textColor: '#ffffff',
@@ -60,7 +60,8 @@ class Diag extends Component {
     shadow: false,
     lang: 'fr',
     pad: 5,
-    shape: 'sharp'
+    shape: 'sharp',
+    small: false
   }
 
   svgNS = 'http://www.w3.org/2000/svg'
@@ -74,7 +75,8 @@ class Diag extends Component {
       shadow: props.shadow || this.defaultOptions.shadow,
       lang: props.lang || this.defaultOptions.lang,
       pad: props.pad || this.defaultOptions.pad,
-      shape: props.shape || this.defaultOptions.shape
+      shape: props.shape || this.defaultOptions.shape,
+      small: props.small || this.defaultOptions.small
     }
 
     this.container = React.createRef()

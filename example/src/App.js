@@ -1,10 +1,13 @@
 import React from 'react'
-
-import 'react-dpe-generator/dist/index.css'
-import { DPE } from '../../src/DPEGES'
+import { DPE, GES } from 'react-dpe-generator'
 
 const App = () => {
-  return <DPE value={200}/>
+  return (
+    <>
+      <DPE value={200} shadow={true} lang={"fr"}/>
+      <GES value={50} shadow={false} lang={"en"}/>
+    </>
+  )
 }
 
 export default App

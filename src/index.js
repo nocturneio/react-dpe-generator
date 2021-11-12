@@ -229,7 +229,7 @@ class Diag extends Component {
     )
 
     var desc = document.createElementNS(this.svgNS, 'desc')
-    desc.textContent = 'Created by Pascalz (http://pascalz.github.io/dpeges/)'
+    desc.textContent = 'Created by MeilleursBiens (https://meilleursbiens.com/)'
     svg.appendChild(desc)
     var defs = document.createElementNS(this.svgNS, 'defs')
     var filter = document.createElementNS(this.svgNS, 'filter')
@@ -440,34 +440,34 @@ export function DPE(props) {
   const valuesRange = [
     {
       min: null,
-      max: 50,
+      max: 70,
       color: '#319834',
       textColor: '#000000',
       label: 'A'
     },
     {
-      min: 51,
-      max: 90,
+      min: 71,
+      max: 110,
       color: '#33cc31',
       textColor: '#000000',
       label: 'B'
     },
     {
-      min: 91,
-      max: 150,
+      min: 111,
+      max: 180,
       color: '#cbfc34',
       textColor: '#000000',
       label: 'C'
     },
     {
-      min: 151,
-      max: 230,
+      min: 181,
+      max: 250,
       color: '#fbfe06',
       textColor: '#000000',
       label: 'D'
     },
     {
-      min: 231,
+      min: 251,
       max: 330,
       color: '#fbcc05',
       textColor: '#000000',
@@ -475,13 +475,13 @@ export function DPE(props) {
     },
     {
       min: 331,
-      max: 450,
+      max: 42,
       color: '#fc9935',
       textColor: '#000000',
       label: 'F'
     },
     {
-      min: 451,
+      min: 421,
       max: null,
       color: '#fc0205',
       textColor: '#ffffff',

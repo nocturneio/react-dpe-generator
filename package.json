@@ -1,6 +1,6 @@
 {
   "name": "react-dpe-generator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate an SVG graph for DPE and GES.",
   "author": "PHClement",
   "license": "MIT",

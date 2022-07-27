@@ -496,51 +496,51 @@ export function GES(props) {
   const valuesRange = [
     {
       min: null,
-      max: 5,
-      color: '#f2eff4',
-      textColor: '#000000',
+      max: 6,
+      color: '#b4d9f6',
+      textColor: '#fff',
       label: 'A'
     },
     {
-      min: 6,
-      max: 10,
-      color: '#dfc1f7',
-      textColor: '#000000',
+      min: 7,
+      max: 11,
+      color: '#97b1d4',
+      textColor: '#fff',
       label: 'B'
     },
     {
-      min: 11,
-      max: 20,
-      color: '#d6aaf4',
-      textColor: '#000000',
+      min: 12,
+      max: 30,
+      color: '#7d90b0',
+      textColor: '#fff',
       label: 'C'
     },
     {
-      min: 21,
-      max: 35,
-      color: '#cc93f4',
-      textColor: '#000000',
+      min: 31,
+      max: 50,
+      color: '#656f8b',
+      textColor: '#fff',
       label: 'D'
     },
     {
-      min: 36,
-      max: 55,
-      color: '#bb72f3',
-      textColor: '#ffffff',
+      min: 51,
+      max: 70,
+      color: '#4e5170',
+      textColor: '#fff',
       label: 'E'
     },
     {
-      min: 56,
-      max: 80,
-      color: '#a94cee',
-      textColor: '#ffffff',
+      min: 71,
+      max: 100,
+      color: '#3b3854',
+      textColor: '#fff',
       label: 'F'
     },
     {
-      min: 81,
+      min: 101,
       max: null,
-      color: '#8b1ae1',
-      textColor: '#ffffff',
+      color: '#271f39',
+      textColor: '#fff',
       label: 'G'
     }
   ]

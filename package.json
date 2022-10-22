@@ -1,6 +1,6 @@
 {
   "name": "react-dpe-generator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generate an SVG graph for DPE and GES.",
   "author": "PHClement",
   "license": "MIT",
@@ -24,7 +24,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

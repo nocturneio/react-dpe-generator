@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
-    "react-dpe-generator": "file:..",
+    "react-dpe-generator": "file:../dist",
     "react-scripts": "file:../node_modules/react-scripts"
   },
   "devDependencies": {

@@ -475,7 +475,7 @@ export function DPE(props) {
     },
     {
       min: 331,
-      max: 42,
+      max: 420,
       color: '#fc9935',
       textColor: '#000000',
       label: 'F'
